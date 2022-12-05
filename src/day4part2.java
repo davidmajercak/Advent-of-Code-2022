@@ -27,7 +27,7 @@ public class day4part2 {
         int lower2 = Integer.parseInt(b[0]);
         int higher2 = Integer.parseInt(b[1]);
 
-        if ((lower1 <= higher2 && higher1 >= lower2) || (lower2 <= higher1 && higher2 >= lower1))
+        if ((lower2 <= higher1 && higher2 >= lower1))
                 return 1;
         return 0;
     }
